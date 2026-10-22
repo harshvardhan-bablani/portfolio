@@ -130,6 +130,9 @@ h2 { color: #edfff2; font-size: clamp(35px,4.6vw,70px); font-weight: 500; letter
 .rank-line { height: 2px; background: #122c1a; margin: 28px 0 11px; }
 .rank-line i { display: block; height: 100%; background: var(--green); box-shadow: 0 0 8px var(--green); }
 .achievement-grid small { color: var(--muted); font-size: 8px; }
+@media (min-width: 981px) {
+  .achievement-grid .achievement-wide { grid-column: span 2; }
+}
 
 .terminal-section .section-content { padding-top: 80px; padding-bottom: 80px; }
 .terminal { max-width: 940px; margin: auto; border: 1px solid #225530; background: rgba(1,8,4,.95); box-shadow: 0 25px 90px rgba(0,0,0,.5),0 0 60px rgba(85,255,134,.04); }

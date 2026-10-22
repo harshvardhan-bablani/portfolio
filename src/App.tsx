@@ -34,19 +34,34 @@ const projects = [
     stack: "HARDCAML / RTL / FPGA / VERIFICATION",
     description:
       "A hardware RTL solution to Advent of Code 2025 Day 1 for the Jane Street FPGA Challenge. A clocked datapath models the safe dial click by click, counting every zero crossing, and is verified against the official example.",
-    signal: "Hardware & quant",
+    signal: "Jane Street FPGA Challenge",
     url: "https://github.com/harshvardhan-bablani/Jane-Street-Advent-Of-FPGA",
   },
 ]
 
 const skillGroups = [
-  ["CORE", ["C++", "Data structures", "Algorithms", "Problem solving"]],
+  ["LANGUAGES", ["C++", "Python", "C"]],
   [
-    "SYSTEM",
-    ["Systems programming", "Memory & performance", "Software engineering"],
+    "CORE CS",
+    [
+      "Data structures & algorithms",
+      "OOP",
+      "Computer architecture",
+      "Competitive programming",
+    ],
   ],
-  ["TOOLS", ["Python", "Git", "Hardcaml", "Competitive programming"]],
-  ["INTEREST", ["Quantitative finance", "Backtesting", "RTL / FPGA"]],
+  ["SYSTEMS", ["Linux", "Git & GitHub", "GCC / g++", "Hardcaml / RTL"]],
+  [
+    "QUANT",
+    [
+      "NumPy",
+      "pandas",
+      "Probability & statistics",
+      "Linear algebra",
+      "Backtesting",
+      "Financial data analysis",
+    ],
+  ],
 ]
 
 function MatrixRain({ intense }: { intense: boolean }) {
@@ -158,7 +173,7 @@ function Terminal() {
       projects:
         "2 processes found: binary_chess_engine, advent_of_fpga. Scroll to /SYS/PROCESSES.",
       achievements:
-        "IMC Prosperity 4: 726/30,706 | Huawei ICPC Online Challenge 2026: 379/~34,000",
+        "IMC Prosperity 4: 726/30,706 | Huawei ICPC Online Challenge 2026: 379/~34,000 | Codeforces peak: 1202",
       whoami: "visitor@harsh-os — curious operator with terminal access",
       matrix: "Wake up, operator. Hidden render mode unlocked.",
     }
@@ -598,6 +613,19 @@ export default function App() {
                   <i style={{ width: "98.9%" }} />
                 </div>
                 <small>APPROX. TOP 1.1% OF PARTICIPANTS</small>
+              </article>
+              <article className="achievement-wide">
+                <div className="achievement-code">CF:1202</div>
+                <p>COMPETITIVE PROGRAMMING</p>
+                <h3>Codeforces</h3>
+                <div className="rank">
+                  <strong>1202</strong>
+                  <span>PEAK RATING</span>
+                </div>
+                <div className="rank-line">
+                  <i style={{ width: "50%" }} />
+                </div>
+                <small>RATING SCALE / 2400 &middot; PUPIL TIER</small>
               </article>
             </div>
           </div>
