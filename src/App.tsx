@@ -173,7 +173,7 @@ function Terminal() {
       projects:
         "2 processes found: binary_chess_engine, advent_of_fpga. Scroll to /SYS/PROCESSES.",
       achievements:
-        "IMC Prosperity 4: 726/30,706 | Huawei ICPC Online Challenge 2026: 379/~34,000 | Codeforces peak: 1202",
+        "IMC Prosperity 4: #726/33,000 (top 2.2%) | Huawei ICPC Online Challenge 2026: #379/~34,000 (top 1.1%) | Codeforces peak: 1202",
       whoami: "visitor@harsh-os — curious operator with terminal access",
       matrix: "Wake up, operator. Hidden render mode unlocked.",
     }
@@ -407,7 +407,7 @@ export default function App() {
             <blockquote className="hero-quote">
               <p>
                 <span aria-hidden="true">“</span>Engineering Systems Where
-                Performance Matters.
+                Performance Matters.<span aria-hidden="true">”</span>
               </p>
             </blockquote>
             <div className="hero-actions">
@@ -458,22 +458,23 @@ export default function App() {
             </div>
             <div className="about-copy">
               <p>
-                I’m a computer science student and software developer focused on{" "}
-                <strong>C++</strong>, algorithms, and systems-level
-                problem-solving. I build with an emphasis on performance,
-                correctness, and maintainable code—turning technical
-                requirements into practical, reliable solutions.
+                I’m a <strong>C++</strong> software engineer. I build with an
+                emphasis on performance, correctness, and maintainable
+                code—turning technical requirements into practical, reliable
+                solutions.
               </p>
               <p>
-                My experience spans competitive programming, hands-on software
-                projects, and open-source contributions. I also work with Python
-                for data-driven and quantitative projects, applying the same
-                engineering discipline to analysis, implementation, and testing.
+                I have worked with open-source projects, backend systems, and
+                quantitative engines. I also work with Python for data-driven
+                projects, applying the same engineering discipline to analysis,
+                implementation, and testing.
               </p>
               <p>
-                I value clear reasoning, attention to detail, and software that
-                does what it’s supposed to do—not just in theory, but in
-                practice.
+                I value attention to detail, guided by the Japanese concept of
+                Kodawari (<span className="jp">こだわり</span>)—the pursuit of
+                craftsmanship through an uncompromising attention to detail.
+                It’s a principle I bring to every problem I solve and everything
+                I build.
               </p>
               <div className="principles">
                 <div>
@@ -599,27 +600,31 @@ export default function App() {
                 <div className="achievement-code">IMC:P4</div>
                 <p>TRADING CHALLENGE</p>
                 <h3>IMC Prosperity 4</h3>
-                <div className="rank">
-                  <strong>726</strong>
-                  <span>/ 30,706</span>
+                <div className="rank rank-percent">
+                  <span className="rank-top">TOP PERCENTILE</span>
+                  <strong>2.2%</strong>
                 </div>
+                <p className="rank-detail">
+                  <b>#726</b> / 33,000 PARTICIPANTS
+                </p>
                 <div className="rank-line">
-                  <i style={{ width: "97.6%" }} />
+                  <i style={{ width: "97.8%" }} />
                 </div>
-                <small>TOP 2.4% OF PARTICIPANTS</small>
               </article>
               <article>
                 <div className="achievement-code">ICPC:26</div>
                 <p>ONLINE CHALLENGE BY HUAWEI</p>
                 <h3>ICPC Online Challenge 2026</h3>
-                <div className="rank">
-                  <strong>379</strong>
-                  <span>/ ~34,000</span>
+                <div className="rank rank-percent">
+                  <span className="rank-top">TOP PERCENTILE</span>
+                  <strong>1.1%</strong>
                 </div>
+                <p className="rank-detail">
+                  <b>#379</b> / ~34,000 PARTICIPANTS
+                </p>
                 <div className="rank-line">
                   <i style={{ width: "98.9%" }} />
                 </div>
-                <small>APPROX. TOP 1.1% OF PARTICIPANTS</small>
               </article>
               <article className="achievement-wide">
                 <div className="achievement-code">CF:1202</div>

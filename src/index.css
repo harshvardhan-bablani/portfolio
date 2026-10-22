@@ -80,6 +80,7 @@ h1 > span { color: var(--green); }
 h2 { color: #edfff2; font-size: clamp(35px,4.6vw,70px); font-weight: 500; letter-spacing: -.055em; line-height: .95; }
 .about-copy > p { color: #9bb1a2; font-family: var(--display); font-size: clamp(16px,1.4vw,21px); line-height: 1.75; margin-bottom: 25px; }
 .about-copy strong { color: var(--green); font-weight: 500; }
+.about-copy .jp { white-space: nowrap; }
 .principles { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 48px; }
 .principles div { background: var(--bg); padding: 20px; }
 .principles span, .principles small { display: block; color: var(--muted); font-size: 8px; }
@@ -131,6 +132,11 @@ h2 { color: #edfff2; font-size: clamp(35px,4.6vw,70px); font-weight: 500; letter
 .rank span { color: var(--muted); font-size: 11px; }
 .rank-line { height: 2px; background: #122c1a; margin: 28px 0 11px; }
 .rank-line i { display: block; height: 100%; background: var(--green); box-shadow: 0 0 8px var(--green); }
+.rank-percent { display: block; }
+.rank-percent .rank-top { display: block; color: var(--green); font-size: 8px; letter-spacing: .16em; margin-bottom: 8px; }
+.rank-percent strong { display: block; font-size: clamp(52px,6.2vw,92px); letter-spacing: -.07em; }
+.rank-detail { color: var(--muted); font-size: 10px; letter-spacing: .04em; margin-top: 16px; }
+.rank-detail b { color: var(--ink); font-weight: 500; }
 .achievement-grid small { color: var(--muted); font-size: 8px; }
 @media (min-width: 981px) {
   .achievement-grid .achievement-wide { grid-column: span 2; }
