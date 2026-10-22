@@ -1,0 +1,18 @@
+{
+  "title": "Harshvardhan Bablani — Software Engineer",
+  "description": "C++ developer and computer science student building fast, correct systems — chess engines, FPGA hardware, and quantitative research.",
+  "language": "en",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": "/favicon.svg"
+  },
+  "openGraph": {
+    "image": "https://harshvardhanbablani.tech/og.png"
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
