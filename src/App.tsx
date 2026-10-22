@@ -173,7 +173,7 @@ function Terminal() {
       projects:
         "2 processes found: binary_chess_engine, advent_of_fpga. Scroll to /SYS/PROCESSES.",
       achievements:
-        "IMC Prosperity 4: #726/33,000 (top 2.2%) | Huawei ICPC Online Challenge 2026: #379/~34,000 (top 1.1%) | Codeforces peak: 1202",
+        "IMC Prosperity 4: #726/33,000 (top 2%) | Huawei ICPC Online Challenge 2026: #379/~34,000 (top 1%) | Codeforces peak: 1202",
       whoami: "visitor@harsh-os — curious operator with terminal access",
       matrix: "Wake up, operator. Hidden render mode unlocked.",
     }
@@ -400,15 +400,9 @@ export default function App() {
               <br />
               <ScrambleText>BABLANI</ScrambleText>
             </h1>
-            <p className="hero-role">
-              C++ DEVELOPER <span>//</span> CS STUDENT <span>//</span> PROBLEM
-              SOLVER
-            </p>
+            <p className="hero-role">C++ Software Engineer</p>
             <blockquote className="hero-quote">
-              <p>
-                <span aria-hidden="true">“</span>Engineering Systems Where
-                Performance Matters.<span aria-hidden="true">”</span>
-              </p>
+              <p>Engineering Systems Where Performance Matters.</p>
             </blockquote>
             <div className="hero-actions">
               <button
@@ -601,8 +595,8 @@ export default function App() {
                 <p>TRADING CHALLENGE</p>
                 <h3>IMC Prosperity 4</h3>
                 <div className="rank rank-percent">
-                  <span className="rank-top">TOP PERCENTILE</span>
-                  <strong>2.2%</strong>
+                  <span className="rank-top">GLOBAL PERCENTILE</span>
+                  <strong>TOP 2%</strong>
                 </div>
                 <p className="rank-detail">
                   <b>#726</b> / 33,000 PARTICIPANTS
@@ -616,8 +610,8 @@ export default function App() {
                 <p>ONLINE CHALLENGE BY HUAWEI</p>
                 <h3>ICPC Online Challenge 2026</h3>
                 <div className="rank rank-percent">
-                  <span className="rank-top">TOP PERCENTILE</span>
-                  <strong>1.1%</strong>
+                  <span className="rank-top">GLOBAL PERCENTILE</span>
+                  <strong>TOP 1%</strong>
                 </div>
                 <p className="rank-detail">
                   <b>#379</b> / ~34,000 PARTICIPANTS
