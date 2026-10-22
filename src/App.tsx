@@ -404,11 +404,12 @@ export default function App() {
               C++ DEVELOPER <span>//</span> CS STUDENT <span>//</span> PROBLEM
               SOLVER
             </p>
-            <p className="hero-intro">
-              I work close to the logic—where performance, correctness, and
-              elegant problem-solving matter. Quantitative finance is one of the
-              systems I’m curious to decode.
-            </p>
+            <blockquote className="hero-quote">
+              <p>
+                <span aria-hidden="true">“</span>Engineering Systems Where
+                Performance Matters.
+              </p>
+            </blockquote>
             <div className="hero-actions">
               <button
                 className="primary-action"
@@ -457,16 +458,22 @@ export default function App() {
             </div>
             <div className="about-copy">
               <p>
-                I’m a computer science student and developer whose primary
-                language is <strong>C++</strong>. I’m drawn to algorithms,
-                systems, and the craft of building software that is both
-                efficient and understandable.
+                I’m a computer science student and software developer focused on{" "}
+                <strong>C++</strong>, algorithms, and systems-level
+                problem-solving. I build with an emphasis on performance,
+                correctness, and maintainable code—turning technical
+                requirements into practical, reliable solutions.
               </p>
               <p>
-                Competitive programming is my proving ground: a place to sharpen
-                reasoning under constraints. I also explore Python and
-                quantitative finance, applying the same analytical mindset to
-                markets and research.
+                My experience spans competitive programming, hands-on software
+                projects, and open-source contributions. I also work with Python
+                for data-driven and quantitative projects, applying the same
+                engineering discipline to analysis, implementation, and testing.
+              </p>
+              <p>
+                I value clear reasoning, attention to detail, and software that
+                does what it’s supposed to do—not just in theory, but in
+                practice.
               </p>
               <div className="principles">
                 <div>

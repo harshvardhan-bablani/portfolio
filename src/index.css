@@ -48,7 +48,9 @@ h1 { font-size: clamp(53px,7.2vw,112px); font-weight: 600; letter-spacing: -.075
 h1 > span { color: var(--green); }
 .hero-role { color: var(--green); font-size: 11px; letter-spacing: .08em; margin: 30px 0 18px; }
 .hero-role span { color: #2f6f43; margin: 0 7px; }
-.hero-intro { max-width: 570px; color: #90aa98; font-family: var(--display); font-size: 16px; line-height: 1.7; }
+.hero-quote { max-width: 620px; margin-top: 30px; }
+.hero-quote p { font-family: var(--display); font-size: clamp(22px, 2.3vw, 32px); font-weight: 500; line-height: 1.35; letter-spacing: -.03em; color: #e8fff0; text-wrap: balance; }
+.hero-quote span { color: var(--green); font-size: 1.7em; line-height: 0; vertical-align: -.18em; margin-right: 2px; text-shadow: 0 0 24px rgba(85,255,134,.22); }
 .hero-actions { display: flex; align-items: center; gap: 30px; margin-top: 38px; }
 .primary-action { border: 1px solid var(--green); background: var(--green); color: var(--bg); padding: 13px 17px; font-size: 10px; font-weight: 600; cursor: pointer; box-shadow: 0 0 24px rgba(85,255,134,.1); transition: .2s; }
 .primary-action:hover { background: transparent; color: var(--green); box-shadow: 0 0 30px rgba(85,255,134,.25); }
@@ -192,9 +194,9 @@ footer button { border: 0; background: none; color: var(--green); cursor: pointe
   .hero { padding-top: 56px; }
   .hero-visual { width: 85vw; right: -38%; top: 17%; opacity: .32; }
   .eyebrow { margin-bottom: 38px; max-width: 260px; line-height: 1.6; }
-  h1 { font-size: clamp(44px,14vw,68px); }
+  h1 { font-size: clamp(32px,10.5vw,58px); }
   .hero-role { line-height: 1.9; max-width: 290px; }
-  .hero-intro { font-size: 15px; }
+  .hero-quote { margin-top: 24px; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 12px; margin-top: 28px; }
   .content-section { display: block; }
   .section-label { border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 6vw; display: flex; align-items: center; gap: 12px; }
